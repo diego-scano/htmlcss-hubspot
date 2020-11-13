@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 a {
@@ -134,7 +134,7 @@ a {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 45px;
   margin-bottom: 30px;
 }
 
@@ -282,8 +282,7 @@ main {
 }
 
 .blue-section {
-  background-color: #00aeb3;
-  height: 500px;
+  background-image: linear-gradient(to right, #00a6bb, #00bca5);
   color: white;
   text-align: center;
 }
@@ -295,4 +294,185 @@ main {
 
 .description-blue-section {
   font-size: 13px;
+}
+
+.grid {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.subgrid {
+  width: 25%;
+  height: 200px;
+  text-align: center;
+}
+
+.subgrid img {
+  padding-top: 20px;
+}
+
+.subgrid:first-child, .subgrid:nth-child(2), .subgrid:nth-child(3), .subgrid:nth-child(5), .subgrid:nth-child(6), .subgrid:nth-child(7) {
+  border-right: 1px solid white;
+}
+
+.subgrid:first-child, .subgrid:nth-child(2), .subgrid:nth-child(3), .subgrid:nth-child(4) {
+  border-bottom: 1px solid white;
+}
+
+.subgrid:nth-child(5) img {
+  height: 55px;
+}
+
+.subgrid-number {
+  font-size: 40px;
+  padding: 20px 0;
+}
+
+.penult-section-row1 {
+  text-align: center;
+}
+
+.penult1-sx {
+  width: 30%;
+}
+
+.penult-dx {
+  width: 70%;
+}
+
+.penult1-sx div {
+  margin: 40px 0;
+}
+
+.penult1-sx div:first-child {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.minigrid {
+  margin-top: 50px
+}
+
+.minigrid img {
+  width: 100px;
+}
+
+.minigrid1 {
+  width: 25%;
+  height: 100px;
+  line-height: 100px;
+  padding-left: 50px;
+}
+
+.minigrid1:first-child, .minigrid1:nth-child(5) {
+  padding-left: 100px;
+}
+
+.penult2-sx {
+  width: 50%;
+  margin-top: 60px;
+  padding-right: 40px;
+}
+
+.penult2-sx div:first-child {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.penult2-sx div:nth-child(3) {
+  margin: 40px 0;
+}
+
+.penult2-sx div:nth-child(3) a {
+  color: white;
+}
+
+.penult2-sx div:last-child {
+  font-size: 10px;
+}
+
+.penult2-dx {
+  width: 50%;
+}
+
+.penult2-dx img {
+  height: 350px;
+}
+
+.penult-section-row1, .penult-section-row2 {
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: #32495b;
+  color: white;
+}
+
+.footer-box {
+  width: calc(25% - 30px);
+  height: 400px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.footer-box:first-child {
+  margin-left: 0;
+}
+
+.footer-box-title {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-box ul {
+  list-style: none;
+}
+
+.footer-box ul li {
+  padding: 10px 0;
+}
+
+.footer-box ul li a {
+  color: white;
+  font-size: 15px;
+}
+
+.footer-box:last-child li:last-child a div {
+  font-size: 11px;
+  color: #32495b;
+  background-color: white;
+}
+
+.footer-icons {
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  color: white;
+  margin-right: 25px;
+}
+
+.languages {
+  text-align: center;
+  border-bottom: 1px solid white;
+  padding: 20px 0;
+}
+
+.languages a {
+  margin-left: 30px;
+  color: white;
+}
+
+.languages a:first-child {
+  margin-left: 0;
+}
+
+.last-footer-element {
+  padding: 30px 0;
+}
+
+.last-right a {
+  color: white;
+  padding-right: 20px;
 }
